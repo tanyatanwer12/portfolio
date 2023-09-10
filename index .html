@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Profile website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><span>Code</span>Demon</a>
+      <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#about">About </a></li>
+        <li><a href="#contact-me">Contact </a></li>
+      </ul>
+      <div class="menu-btn">
+        <span>INTRO</span>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+    <section class="home">
+      <div class="home-text">
+        <span>Web developer</span>
+        <h1>Tanya Tanwer</h1>
+        <p>
+          I'm Web Developer, Front End, C programer, Graphic Designer, Tech
+          Enthusiast.
+        </p>
+        <div class="main-btn">
+          <a href="file:///C:/Users/pc/Downloads/RESUME.pdf%20(1).pdf" attributes-list download ="optional-value" class="btn">Download CV</a>
+            
+
+          <a href="#" class="btn two">Hire Me Now</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="photo.jpeg" alt="pic" />
+      </div>
+    </section>
+    <section class="about" id="about">
+      <h1 class="heading"><span>About</span>me</h1>
+      <div class="row">
+        <div class="image">
+          <img src="" alt="" />
+        </div>
+        <div class="content">
+          <h3>Hey!</h3>
+          <p class="p1">
+            I'm a 19-year-old web developer named Tanya Tanwer. I'm currently
+            attending Guru Gobind Singh Indraprasth University to complete my
+            bachelor's degree in computer science.
+          </p>
+          <p class="p2">
+            An Delhite, I am. As a Tech geek, I'm eager to learn new things and
+            am always willing to do so.
+          </p>
+          <div>
+            <h1 class="skills-heading">My Skills</h1>
+          </div>
+          <div class="skills-bar">
+            <div class="bar">
+              <div class="info">
+                <span>HTML</span>
+              </div>
+              <div class="progress-line"><span class="html"></span></div>
+              <div class="bar">
+                <div class="info">
+                  <span>CSS</span>
+                </div>
+                <div class="progress-line"><span class="css"></span></div>
+                <div class="bar">
+                  <div class="info">
+                    
+                  <div class="bar">
+                    <div class="info">
+                      <span>JAVASCRIPT</span>
+                    </div>
+                    <div class="progress-line">
+                      <span class="javascript"></span>
+                    </div>
+                    <div class="bar">
+                      <div class="info">
+                        <span>C Programming</span>
+                      </div>
+                      <div class="progress-line"><span class="c"></span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h2 class="mywork">My<span>work</span></h2>
+          <div class="proj-1">
+          <img src="data:image/jpeg;base64,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">
+          <div class="proj1-details ">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <h2>Coffee Shop Website </h2>
+            <p>Build Using HTML,CSS,Java Script</p>
+            <button><a href="https://github.com/sanketbodke/Restaurant-Website" target="blank">View source <i
+              class="fas fa-external-link-alt"></i></a>
+            </button>
+            <button><a href="https://fervent-lamarr-2bc6cf.netlify.app/" target="blank">Try it Live <i
+              class="fas fa-external-link-alt"></i></a>
+          </button>
+          </div>
+        </div>
+        </div>
+        <div class="proj-2">
+        <img src="https://getassist.net/wp-content/uploads/2021/07/Netflix-login.jpg">
+        <div class="proj2-details">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <h2>Netflix Clone </h2>
+            <p>Build Using HTML,CSS,Java Script</p>
+            <button><a href="https://github.com/sanketbodke/Restaurant-Website" target="blank">View source <i
+              class="fas fa-external-link-alt"></i></a>
+            </button>
+            <button><a href="https://fervent-lamarr-2bc6cf.netlify.app/" target="blank">Try it Live <i
+              class="fas fa-external-link-alt"></i></a>
+          </button>
+          </div>
+        </div>
+      </div>
+        <div class="proj-3">
+        <img src="https://technicallyautonomous.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-08-at-5.56.52-PM-1024x624.jpg">
+        <div class="proj3-details">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            
+            <h2>Amazon clone </h2>
+            <p>Build Using HTML,CSS</p>
+            <button><a href="https://github.com/sanketbodke/Restaurant-Website" target="blank">View source <i
+              class="fas fa-external-link-alt"></i></a>
+            </button>
+            <button><a href="https://fervent-lamarr-2bc6cf.netlify.app/" target="blank">Try it Live <i
+              class="fas fa-external-link-alt"></i></a>
+          </button>
+          </div>
+        </div>
+      </div>
+        <div class="proj-4">
+        <img src="https://i.ytimg.com/vi/etpK9qy8boU/maxresdefault.jpg">
+        <div class="proj4-details">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <h2>Solar Systum </h2>
+            <p>Build Using HTML,CSS,Java Script</p>
+            <button><a href="https://github.com/sanketbodke/Restaurant-Website" target="blank">View source <i
+              class="fas fa-external-link-alt"></i></a>
+            </button>
+            <button><a href="https://fervent-lamarr-2bc6cf.netlify.app/" target="blank">Try it Live <i
+              class="fas fa-external-link-alt"></i></a>
+          </button>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+    </section>
+    <div class="contact" id="contact-me">
+      <div class="container">
+        <div class="contact-content">
+          <h2>Contact Me</h2>
+          <p class="mail">
+            Get in touch with me <i class="fas fa-arrow-right"></i> tanyatanwer1@gmail.com
+          </p>
+          <p class="links">Or find me on:</p>
+          <a href="www.linkedin.com/in/tanya-tanwer-88a04325a" target="blank"><i class="bx bxl-linkedin">
+              Linkedin</i></a>
+          <a href="https://github.com/tanyatanwer12" target="blank"><i class="bx bxl-github"></i> Github</a>
+          <a href="https://tanyatanwer1@gmail.com" target="blank"><i class="bx bxl-gmail"></i> Gmail</a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="shear">
+      <p>Check out my:</p>
+      <div class="social">
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <a href="#"><i class="bx bxl-github"></i></a>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
